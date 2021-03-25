@@ -561,6 +561,7 @@ export default class Item extends Component {
 
   getItemStyle(props) {
     const dimensions = this.props.dimensions
+    console.log('dimensions:', dimensions);
 
     const baseStyles = {
       position: 'absolute',
